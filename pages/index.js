@@ -21,9 +21,11 @@ export default function Home() {
             const url = `/dates/${encodeURIComponent(date.id)}`;
             return (
               <div className={styles.qrcode} key={date.id}>
+                <a href={`/api/qr/${date.id}?width=128`} download>
+                  <QRCode value={url}></QRCode>
+                </a>
                 <Link href={url}>
                   <a>
-                    <QRCode value={url}></QRCode>
                     <span>{date.title}</span>
                   </a>
                 </Link>
