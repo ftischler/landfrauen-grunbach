@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import dates from "../data/dates.json";
 
 import QRCode from "react-qr-code";
+import { Button, Card, Typography } from "@mui/material";
 
 export default function Home() {
   return (
@@ -12,28 +13,60 @@ export default function Home() {
       <Head>
         <title>Landfrauen Remshalden-Grunbach</title>
         <meta name="description" content="Landfrauen Remshalden-Grunbach" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
       </Head>
 
       <main className={styles.main}>
-        <ul>
+        <div className={styles.cardcontainer}>
           {dates.map((date) => {
             const url = `/dates/${encodeURIComponent(date.id)}`;
             return (
-              <div className={styles.qrcode} key={date.id}>
-                <a href={`/api/qr/${date.id}?width=128`} download>
-                  <QRCode value={url}></QRCode>
-                </a>
-                <Link href={url}>
-                  <a>
-                    <span>{date.title}</span>
-                  </a>
-                </Link>
-                <br />
-              </div>
+              <Card className={styles.qrcontainer} key={date.id}>
+                <div>
+                  <div className={styles.m10}>
+                    <a
+                      className={styles.qrcode}
+                      href={`/api/qr/${date.id}?width=128`}
+                      download
+                    >
+                      <QRCode value={url}></QRCode>
+                    </a>
+                  </div>
+                  <div className={styles.m10}>
+                    <a>
+                      <div className={styles.m10}>
+                        <Typography variant="body1">
+                          {date.type} {date.title}
+                        </Typography>
+                        <Typography variant="body2">{date.speaker}</Typography>
+                      </div>
+                      <div className={styles.m10}>
+                        <Typography variant="body2">{date.dateFmt}</Typography>
+                        <Typography variant="body2">{date.timeFmt}</Typography>
+                      </div>
+                      <div className={styles.m10}>
+                        <Typography variant="body2">{date.location}</Typography>
+                        <Typography variant="body2">{date.address}</Typography>
+                      </div>
+                    </a>
+                  </div>
+                  <Link href={url}>
+                    <Button variant="outlined">Mehr ...</Button>
+                  </Link>
+                </div>
+              </Card>
             );
           })}
-        </ul>
+        </div>
       </main>
     </div>
   );

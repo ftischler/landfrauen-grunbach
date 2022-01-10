@@ -1,6 +1,13 @@
 import dates from "../../data/dates.json";
 import { ICalendar } from "datebook";
 
+import styles from "../../styles/Dates.module.css";
+import Head from "next/head";
+import { Fab, Typography } from "@mui/material";
+import AddIcon from "@mui/icons-material/Add";
+import CalendarIcon from "@mui/icons-material/DateRange";
+import LocationIcon from "@mui/icons-material/Place";
+
 export function getStaticPaths() {
   const paths = dates.map(({ id }) => `/dates/${id}`);
   return { paths, fallback: false };
@@ -21,36 +28,69 @@ export default function Dates({ date }) {
 
   return (
     <>
-      <div className="date-header"></div>
-      <div>
-        <h1>
+      <Head>
+        <title>
           {date.type} {date.title}
-        </h1>
-        <p>Referent: {date.speaker}</p>
-      </div>
-      <div>
-        <div></div>
-        <div>
-          <p>WANN</p>
+        </title>
+      </Head>
+      <main className={styles.main}>
+        <div className={styles.dateheader}></div>
+        <div className={styles.date}>
           <div>
-            <p>{date.dateFmt}</p>
-            <p>{date.timeFmt}</p>
+            <Typography variant="h6" component="h1">
+              <strong>
+                {date.type} {date.title}
+              </strong>
+            </Typography>
+            <div className={styles.speaker}>
+              <Typography variant="subtitle">
+                <strong>
+                  {date.speakerTitle}: {date.speaker}
+                </strong>
+              </Typography>
+            </div>
+          </div>
+          <div className={styles.sections}>
+            <div className={styles.section}>
+              <div className={styles.iconcontainer}>
+                <CalendarIcon className={styles.sectionicon}></CalendarIcon>
+              </div>
+              <div>
+                <Typography variant="body1">
+                  <strong>WANN</strong>
+                </Typography>
+                <div>
+                  <Typography variant="body1">{date.dateFmt}</Typography>
+                  <Typography variant="body1">{date.timeFmt}</Typography>
+                </div>
+              </div>
+            </div>
+            <div className={styles.section}>
+              <div className={styles.iconcontainer}>
+                <LocationIcon className={styles.sectionicon}></LocationIcon>
+              </div>
+              <div>
+                <Typography variant="body1">
+                  <strong>WO</strong>
+                </Typography>
+                <div>
+                  <Typography variant="body1">{date.location}</Typography>
+                  <Typography variant="body1">{date.address}</Typography>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <Fab
+              className={styles.fab}
+              color="primary"
+              onClick={() => iCalendar.download()}
+            >
+              <AddIcon></AddIcon>
+            </Fab>
           </div>
         </div>
-      </div>
-      <div>
-        <div></div>
-        <div>
-          <p>WO</p>
-          <div>
-            <p>{date.location}</p>
-            <p>{date.address}</p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <button onClick={() => iCalendar.download()}>+</button>
-      </div>
+      </main>
     </>
   );
 }

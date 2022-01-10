@@ -1,7 +1,14 @@
 .main {
-
+    width: 100%;
 }
 
-.qrcode {
-    margin-bottom: 50px;
+.qrcontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+.m10 {
+    margin-bottom: 10px;
 }

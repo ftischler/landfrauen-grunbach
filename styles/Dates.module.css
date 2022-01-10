@@ -1,0 +1,40 @@
+.main {
+
+}
+
+.dateheader {
+    height: 20vh;
+    background-color: #289C38;
+}
+
+.date {
+    margin: 20px;
+}
+
+.speaker {
+    margin-top: 20px;
+}
+
+.fab {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.sections {
+    margin-top: 50px;
+}
+
+.section {
+    display: flex;
+    margin-top: 30px;
+}
+
+.sectionicon {
+    font-size: 48px;
+}
+
+.iconcontainer {
+    display: flex;
+    place-items: flex-start;
+}
