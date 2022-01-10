@@ -1,0 +1,62 @@
+[
+  {
+    "id": "8a48d4",
+    "type": "Vortrag",
+    "title": "„Umgang mit psychischen Erkrankungen“, Spezialfall für Angehörige",
+    "speaker": "Andreas Raether, ZfP Winnenden",
+    "dateFmt": "Mittwoch, 23. Februar",
+    "timeFmt": "18 Uhr - 21 Uhr",
+    "start": "2022-02-23T17:00:00.000Z",
+    "end": "2022-02-23T20:00:00.000Z",
+    "location": "Jahnhalle, Grunbach",
+    "address": "Bahnhofstraße 29/1, 73630 Remshalden"
+  },
+  {
+    "id": "302296",
+    "type": "Vortrag",
+    "title": "„Der digitale Nachlass“",
+    "speaker": "Gabriele Muntwiler",
+    "dateFmt": "Donnerstag, 10. März",
+    "timeFmt": "18:30 Uhr - 21 Uhr",
+    "start": "2022-03-10T17:30:00.000Z",
+    "end": "2022-03-10T20:00:00.000Z",
+    "location": "Bürgersaal/Bürgerhaus Grunbach",
+    "address": "Schillerstraße 30, 73630 Remshalden"
+  },
+  {
+    "id": "50999f",
+    "type": "Vortrag",
+    "title": "„Wickel, Auflagen und heiße Rolle“",
+    "speaker": "Dorothea Endreß",
+    "dateFmt": "Donnerstag, 5. Mai",
+    "timeFmt": "18 Uhr - 21 Uhr",
+    "start": "2022-05-05T17:00:00.000Z",
+    "end": "2022-05-05T20:00:00.000Z",
+    "location": "Bürgersaal/Bürgerhaus Grunbach",
+    "address": "Schillerstraße 30, 73630 Remshalden"
+  },
+  {
+    "id": "7d374b",
+    "type": "Vortrag",
+    "title": "„Aroniabeere“ und Herbstfest",
+    "speaker": "Sieglinde Schwaderer",
+    "dateFmt": "Donnerstag, 22. September",
+    "timeFmt": "18 Uhr - 21 Uhr",
+    "start": "2022-09-22T17:00:00.000Z",
+    "end": "2022-09-22T20:00:00.000Z",
+    "location": "Bürgersaal/Bürgerhaus Grunbach",
+    "address": "Schillerstraße 30, 73630 Remshalden"
+  },
+  {
+    "id": "634dc8",
+    "type": "Seminar",
+    "title": "„Augen auf beim Spielzeugkauf“ mit Frühstück",
+    "speaker": "Ulrike Lieber",
+    "dateFmt": "Samstag, 19. November",
+    "timeFmt": "9 Uhr - 17 Uhr",
+    "start": "2022-11-09T08:00:00.000Z",
+    "end": "2022-11-09T16:00:00.000Z",
+    "location": "Foyer Wilhelm-Enßle-Halle, Geradstetten",
+    "address": "Friedensstraße 14, 73630 Remshalden"
+  }
+]
