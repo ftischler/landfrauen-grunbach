@@ -61,7 +61,9 @@ export default function Dates({ date }) {
                 </Typography>
                 <div>
                   <Typography variant="body1">{date.dateFmt}</Typography>
-                  <Typography variant="body1">{date.timeFmt}</Typography>
+                  <Typography variant="body1" className={styles.grey}>
+                    {date.timeFmt}
+                  </Typography>
                 </div>
               </div>
             </div>
@@ -75,7 +77,9 @@ export default function Dates({ date }) {
                 </Typography>
                 <div>
                   <Typography variant="body1">{date.location}</Typography>
-                  <Typography variant="body1">{date.address}</Typography>
+                  <Typography variant="body1" className={styles.grey}>
+                    {date.address}
+                  </Typography>
                 </div>
               </div>
             </div>
