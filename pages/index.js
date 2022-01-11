@@ -19,7 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.cardcontainer}>
           {dates.map((date) => {
-            const url = `/dates/${encodeURIComponent(date.id)}`;
+            const url = `${window.origin}/dates/${encodeURIComponent(date.id)}`;
             return (
               <Card className={styles.qrcontainer} key={date.id}>
                 <div>
