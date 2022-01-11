@@ -8,9 +8,9 @@ import CalendarIcon from "@mui/icons-material/DateRange";
 import LocationIcon from "@mui/icons-material/Place";
 
 import { BiCalendarPlus } from "react-icons/bi";
-import { useConvertDates } from "../common/convert-dates";
 import { FormattedDate } from "react-intl";
 import TimeRange from "../components/TimeRange";
+import { useConvertDates } from "../../hooks/use-convert-dates";
 
 export function getStaticPaths() {
   const paths = dates.map(({ id }) => `/dates/${id}`);

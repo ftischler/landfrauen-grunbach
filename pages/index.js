@@ -7,9 +7,9 @@ import dates from "../data/dates.json";
 import QRCode from "react-qr-code";
 import { Button, Card, Typography } from "@mui/material";
 import absoluteUrl from "next-absolute-url/index";
-import { convertDates } from "./common/convert-dates";
 import { FormattedDate } from "react-intl";
 import TimeRange from "./components/TimeRange";
+import { convertDates } from "../hooks/use-convert-dates";
 
 Home.getInitialProps = async ({ req }) => {
   const { origin } = absoluteUrl(req);
