@@ -27,7 +27,7 @@ export default function Dates({ date }) {
 
   const iCalendar = new ICalendar({
     title: `${date.type}: ${date.title}`,
-    location: date.location,
+    location: `${date.location}, ${date.address}`,
     start,
     end,
   });
