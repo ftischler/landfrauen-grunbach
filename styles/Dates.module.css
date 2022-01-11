@@ -3,8 +3,10 @@
 }
 
 .dateheader {
-    height: 20vh;
-    background-color: #289C38;
+    height: 25vh;
+    background: url("../public/bgr.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .date {

@@ -4,9 +4,10 @@ import { ICalendar } from "datebook";
 import styles from "../../styles/Dates.module.css";
 import Head from "next/head";
 import { Fab, Typography } from "@mui/material";
-import AddIcon from "@mui/icons-material/Add";
 import CalendarIcon from "@mui/icons-material/DateRange";
 import LocationIcon from "@mui/icons-material/Place";
+
+import { BiCalendarPlus } from "react-icons/bi";
 
 export function getStaticPaths() {
   const paths = dates.map(({ id }) => `/dates/${id}`);
@@ -92,7 +93,7 @@ export default function Dates({ date }) {
               color="primary"
               onClick={() => iCalendar.download()}
             >
-              <AddIcon></AddIcon>
+              <BiCalendarPlus size="25px"></BiCalendarPlus>
             </Fab>
           </div>
         </div>
