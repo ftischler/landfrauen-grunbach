@@ -2,7 +2,7 @@
   "name": "Landfrauen Remshalden-Grunbach",
   "short_name": "Landfrauen Grunbach",
   "theme_color": "#289C38",
-  "background_color": "#289C38",
+  "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/",
   "start_url": "/"

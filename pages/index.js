@@ -14,6 +14,7 @@ export default function Home() {
         <title>Landfrauen Remshalden-Grunbach</title>
         <meta name="description" content="Landfrauen Remshalden-Grunbach" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <meta name="theme-color" content="#289C38" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="manifest.json" />
         <link
