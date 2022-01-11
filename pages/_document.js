@@ -13,7 +13,7 @@ class MyDocument extends Document {
           <meta name="description" content="Landfrauen Remshalden-Grunbach" />
           <meta name="viewport" content="initial-scale=1, width=device-width" />
           <link rel="icon" href="/favicon.ico" />
-          <link rel="manifest" href="manifest.json" />
+          <link rel="manifest" href="/manifest.json" />
           <meta
             name="application-name"
             content="Landfrauen Remshalden-Grunbach"
