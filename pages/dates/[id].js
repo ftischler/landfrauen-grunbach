@@ -8,6 +8,9 @@ import CalendarIcon from "@mui/icons-material/DateRange";
 import LocationIcon from "@mui/icons-material/Place";
 
 import { BiCalendarPlus } from "react-icons/bi";
+import { useConvertDates } from "../common/convert-dates";
+import { FormattedDate } from "react-intl";
+import TimeRange from "../components/TimeRange";
 
 export function getStaticPaths() {
   const paths = dates.map(({ id }) => `/dates/${id}`);
@@ -20,11 +23,13 @@ export function getStaticProps({ params }) {
 }
 
 export default function Dates({ date }) {
+  const { start, end } = useConvertDates(date);
+
   const iCalendar = new ICalendar({
     title: `${date.type}: ${date.title}`,
     location: date.location,
-    start: new Date(date.start),
-    end: new Date(date.end),
+    start,
+    end,
   });
 
   return (
@@ -63,9 +68,17 @@ export default function Dates({ date }) {
                   <strong>WANN</strong>
                 </Typography>
                 <div>
-                  <Typography variant="body1">{date.dateFmt}</Typography>
-                  <Typography variant="body1" className={styles.grey}>
-                    {date.timeFmt}
+                  <Typography variant="body1">
+                    <FormattedDate
+                      value={start}
+                      weekday="long"
+                      day="2-digit"
+                      month="long"
+                      year="numeric"
+                    ></FormattedDate>
+                  </Typography>
+                  <Typography variant="body1">
+                    <TimeRange start={start} end={end}></TimeRange>
                   </Typography>
                 </div>
               </div>

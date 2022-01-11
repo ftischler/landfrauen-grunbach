@@ -3,6 +3,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { green } from "@mui/material/colors";
+import { IntlProvider } from "react-intl";
 
 const theme = createTheme({
   palette: {
@@ -12,10 +13,12 @@ const theme = createTheme({
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Component {...pageProps} />
-    </ThemeProvider>
+    <IntlProvider locale="de" defaultLocale="de">
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </IntlProvider>
   );
 }
 

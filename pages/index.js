@@ -7,6 +7,9 @@ import dates from "../data/dates.json";
 import QRCode from "react-qr-code";
 import { Button, Card, Typography } from "@mui/material";
 import absoluteUrl from "next-absolute-url/index";
+import { convertDates } from "./common/convert-dates";
+import { FormattedDate } from "react-intl";
+import TimeRange from "./components/TimeRange";
 
 Home.getInitialProps = async ({ req }) => {
   const { origin } = absoluteUrl(req);
@@ -25,6 +28,7 @@ export default function Home({ origin }) {
       <main className={styles.main}>
         <div className={styles.cardcontainer}>
           {dates.map((date) => {
+            const { start, end } = convertDates(date);
             const url = `${origin}/dates/${encodeURIComponent(date.id)}`;
             return (
               <Card className={styles.qrcontainer} key={date.id}>
@@ -47,8 +51,18 @@ export default function Home({ origin }) {
                         <Typography variant="body2">{date.speaker}</Typography>
                       </div>
                       <div className={styles.m10}>
-                        <Typography variant="body2">{date.dateFmt}</Typography>
-                        <Typography variant="body2">{date.timeFmt}</Typography>
+                        <Typography variant="body2">
+                          <FormattedDate
+                            value={start}
+                            weekday="long"
+                            day="2-digit"
+                            month="long"
+                            year="numeric"
+                          ></FormattedDate>
+                        </Typography>
+                        <Typography variant="body2">
+                          <TimeRange start={start} end={end}></TimeRange>
+                        </Typography>
                       </div>
                       <div className={styles.m10}>
                         <Typography variant="body2">{date.location}</Typography>
