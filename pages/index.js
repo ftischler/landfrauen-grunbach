@@ -6,8 +6,14 @@ import dates from "../data/dates.json";
 
 import QRCode from "react-qr-code";
 import { Button, Card, Typography } from "@mui/material";
+import absoluteUrl from "next-absolute-url/index";
 
-export default function Home() {
+Home.getInitialProps = async ({ req }) => {
+  const { origin } = absoluteUrl(req);
+  return { origin };
+};
+
+export default function Home({ origin }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -19,7 +25,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.cardcontainer}>
           {dates.map((date) => {
-            const url = `${window.origin}/dates/${encodeURIComponent(date.id)}`;
+            const url = `${origin}/dates/${encodeURIComponent(date.id)}`;
             return (
               <Card className={styles.qrcontainer} key={date.id}>
                 <div>
