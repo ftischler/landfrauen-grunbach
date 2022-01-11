@@ -29,6 +29,7 @@ export default function Dates({ date }) {
   return (
     <>
       <Head>
+        <meta name="theme-color" content="#289C38" />
         <title>
           {date.type} {date.title}
         </title>
