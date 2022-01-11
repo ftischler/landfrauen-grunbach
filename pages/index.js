@@ -11,6 +11,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta name="theme-color" content="#ffffff" />
         <title>Landfrauen Remshalden-Grunbach</title>
       </Head>

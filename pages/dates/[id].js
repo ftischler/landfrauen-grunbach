@@ -30,6 +30,7 @@ export default function Dates({ date }) {
     <>
       <Head>
         <meta name="theme-color" content="#289C38" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
         <title>
           {date.type} {date.title}
         </title>
