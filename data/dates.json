@@ -53,5 +53,60 @@
     "end": "2022-11-19T16:00:00.000Z",
     "location": "Foyer Wilhelm-Enßle-Halle, Geradstetten",
     "address": "Friedensstraße 14, 73630 Remshalden"
+  },
+  {
+    "id": "01d012dc",
+    "type": "Veranstaltung",
+    "title": "Weidenflechten",
+    "speaker": "Monika Ehret",
+    "speakerTitle": "Referentin",
+    "start": "2023-03-16T14:00:00.000Z",
+    "end": "2023-03-16T16:00:00.000Z",
+    "location": "Vereinszimmer/Bürgerhaus Grunbach",
+    "address": "Schillerstraße 30, 73630 Remshalden"
+  },
+  {
+    "id": "137205d6",
+    "type": "Veranstaltung",
+    "title": "Afterwork Winewalk",
+    "speaker": "Monika Lang",
+    "speakerTitle": "Leitung",
+    "start": "2023-06-28T16:00:00.000Z",
+    "end": "2023-06-28T18:00:00.000Z",
+    "location": "Kirchplatz Grunbach",
+    "address": "Kirchplatz, 73630 Remshalden"
+  },
+  {
+    "id": "1a63fc14",
+    "type": "Vortrag",
+    "title": "Gute Beziehungen entstehen durch wertschätzende Kommunikation",
+    "speaker": "Rita Reichenbach-Lachenmann",
+    "speakerTitle": "Referentin",
+    "start": "2023-07-06T17:00:00.000Z",
+    "end": "2023-07-06T19:00:00.000Z",
+    "location": "Bürgersaal/Bürgerhaus Grunbach",
+    "address": "Schillerstraße 30, 73630 Remshalden"
+  },
+  {
+    "id": "2191b80a",
+    "type": "Vortrag",
+    "title": "Effektive Wege zum Säure-Basen-Gleichgewicht",
+    "speaker": "Dorothea Endreß",
+    "speakerTitle": "Referentin",
+    "start": "2023-10-19T16:00:00.000Z",
+    "end": "2023-10-19T18:00:00.000Z",
+    "location": "Bürgersaal/Bürgerhaus Grunbach",
+    "address": "Schillerstraße 30, 73630 Remshalden"
+  },
+  {
+    "id": "269c060c",
+    "type": "Vortrag",
+    "title": "Krebsvorsorge – wer, wann, was",
+    "speaker": "Dr. Aigeldinger",
+    "speakerTitle": "Referent",
+    "start": "2023-11-16T18:00:00.000Z",
+    "end": "2023-11-16T20:00:00.000Z",
+    "location": "Bürgersaal/Bürgerhaus Grunbach",
+    "address": "Schillerstraße 30, 73630 Remshalden"
   }
 ]
