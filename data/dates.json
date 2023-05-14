@@ -101,7 +101,7 @@
   {
     "id": "269c060c",
     "type": "Vortrag",
-    "title": "„Krebsvorsorge – wer, wann, was“",
+    "title": "Krebsvorsorge – wer, wann, was“",
     "speaker": "Dr. Aigeldinger",
     "speakerTitle": "Referent",
     "start": "2023-11-16T18:00:00.000Z",
@@ -111,19 +111,19 @@
   },
   {
     "id": "8a4af1fb",
-    "type": "Ausflug",
+    "type": "Ausflug:",
     "title": "BUGA Mannheim – Busfahrt mit Führung auf der Bundesgartenschau",
     "start": "2023-09-20T07:00:00.000Z",
-    "end": "2023-09-20T:19:00.000Z",
+    "end": "2023-09-20T17:00:00.000Z",
     "location": "Reinhold-Maier Platz, Remshalden-Grunbach",
     "address": "Reinhold-Maier Platz, Remshalden-Grunbach"
   },
   {
     "id": "dbca4ee3",
-    "type": "Ausflug",
+    "type": "Ausflug:",
     "title": "Schwäbisch Hall, Freilichtbühne Große Treppe, Musical „Wie im Himmel“",
     "start": "2023-07-27T13:00:00.000Z",
-    "end": "2023-07-27T:21:30.000Z",
+    "end": "2023-07-27T21:30:00.000Z",
     "location": "Reinhold-Maier Platz, Remshalden-Grunbach",
     "address": "Reinhold-Maier-Straße, 73630 Remshalden"
   }

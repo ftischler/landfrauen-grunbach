@@ -50,13 +50,13 @@ export default function Dates({ date }) {
                 {date.type} {date.title}
               </strong>
             </Typography>
-            <div className={styles.speaker}>
+            {date.speaker && date.speakerTitle && <div className={styles.speaker}>
               <Typography variant="subtitle">
                 <strong>
                   {date.speakerTitle}: {date.speaker}
                 </strong>
               </Typography>
-            </div>
+            </div>}
           </div>
           <div className={styles.sections}>
             <div className={styles.section}>
