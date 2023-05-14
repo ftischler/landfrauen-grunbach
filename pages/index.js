@@ -48,7 +48,11 @@ export default function Home({ origin }) {
                         <Typography variant="body1">
                           {date.type} {date.title}
                         </Typography>
-                        <Typography variant="body2">{date.speaker}</Typography>
+                        {date.speaker && (
+                          <Typography variant="body2">
+                            {date.speaker}
+                          </Typography>
+                        )}
                       </div>
                       <div className={styles.m10}>
                         <Typography variant="body2">
