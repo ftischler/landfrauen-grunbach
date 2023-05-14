@@ -84,8 +84,8 @@
     "speakerTitle": "Referentin",
     "start": "2023-07-06T17:00:00.000Z",
     "end": "2023-07-06T19:00:00.000Z",
-    "location": "Bürgersaal/Bürgerhaus Grunbach",
-    "address": "Schillerstraße 30, 73630 Remshalden"
+    "location": "Neue Kelter",
+    "address": "Schorndorfer Str. 55, 73630 Remshalden"
   },
   {
     "id": "2191b80a",
@@ -108,5 +108,23 @@
     "end": "2023-11-16T20:00:00.000Z",
     "location": "Bürgersaal/Bürgerhaus Grunbach",
     "address": "Schillerstraße 30, 73630 Remshalden"
+  },
+  {
+    "id": "8a4af1fb",
+    "type": "Ausflug",
+    "title": "BUGA Mannheim – Busfahrt mit Führung auf der Bundesgartenschau",
+    "start": "2023-09-20T07:00:00.000Z",
+    "end": "2023-09-20T:19:00.000Z",
+    "location": "Reinhold-Maier Platz, Remshalden-Grunbach",
+    "address": "Reinhold-Maier Platz, Remshalden-Grunbach"
+  },
+  {
+    "id": "dbca4ee3",
+    "type": "Ausflug",
+    "title": "Schwäbisch Hall, Freilichtbühne Große Treppe, Musical „Wie im Himmel“",
+    "start": "2023-07-27T13:00:00.000Z",
+    "end": "2023-07-27T:21:30.000Z",
+    "location": "Reinhold-Maier Platz, Remshalden-Grunbach",
+    "address": "Reinhold-Maier-Straße, 73630 Remshalden"
   }
 ]
