@@ -129,7 +129,7 @@
   },
   {
     "id": "4d61296b",
-    "type": "Vortrag",
+    "type": "Vortrag:",
     "title": "Faszinierende Faszien – ein Vortrag zum Mitmachen",
     "speaker": "Aylin Bergemann",
     "speakerTitle": "Referentin",
@@ -139,7 +139,7 @@
   },
   {
     "id": "b7a9f2d4",
-    "type": "Vortrag",
+    "type": "Vortrag:",
     "title": "Der Bürstenmacher erzählt",
     "Reinhold Rottenbiller": "Der Bürstenmacher erzählt",
     "speakerTitle": "Referent",
@@ -149,7 +149,7 @@
   },
   {
     "id": "e8c7f6d9",
-    "type": "Vortrag",
+    "type": "Vortrag:",
     "title": "Frühjahrsmüde – es geht auch anders (im Anschluss Frühlingsfeier)",
     "speaker": "Elke Melchger",
     "speakerTitle": "Referentin",
@@ -159,7 +159,7 @@
   },
   {
     "id": "9a2b4c8d",
-    "type": "Vortrag",
+    "type": "Vortrag:",
     "title": "Vortrag über die Hospizarbeit",
     "speaker": "Herr Baumann",
     "speakerTitle": "Referent",
@@ -169,7 +169,7 @@
   },
   {
     "id": "3e4f5c6d",
-    "type": "Ausflug",
+    "type": "Ausflug:",
     "title": "Busfahrt zur Kinderzeche Dinkelsbühl (Historisches Kinder- und Heimatfest)",
     "start": "2024-07-21T09:00:00.000Z",
     "end": "2024-07-21T19:00:00.000Z",
@@ -177,7 +177,7 @@
   },
   {
     "id": "7a8b9c0d",
-    "type": "Besuch",
+    "type": "Ausflug:",
     "title": "Besuch im Kräutergarten „Garten der Sinne“",
     "speaker": "Herr Spieß",
     "speakerTitle": "Referent",
@@ -187,7 +187,7 @@
   },
   {
     "id": "1f2a3b4c",
-    "type": "Ausflug",
+    "type": "Ausflug:",
     "title": "Ausflug zum Brezelmuseum mit Brezelbacken",
     "start": "2024-10-24T14:00:00.000Z",
     "end": "2024-10-24T18:00:00.000Z",
