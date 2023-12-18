@@ -126,5 +126,71 @@
     "end": "2023-07-27T21:30:00.000Z",
     "location": "Reinhold-Maier Platz, Remshalden-Grunbach",
     "address": "Reinhold-Maier-Straße, 73630 Remshalden"
+  },
+  {
+    "id": "4d61296b",
+    "type": "Vortrag",
+    "title": "Faszinierende Faszien – ein Vortrag zum Mitmachen",
+    "speaker": "Aylin Bergemann",
+    "speakerTitle": "Referentin",
+    "start": "2024-02-01T18:00:00.000Z",
+    "end": "2024-02-01T19:30:00.000Z",
+    "location": "Foyer der Wilhelm-Enssle-Halle, Geradstetten"
+  },
+  {
+    "id": "b7a9f2d4",
+    "type": "Vortrag",
+    "title": "Der Bürstenmacher erzählt",
+    "Reinhold Rottenbiller": "Der Bürstenmacher erzählt",
+    "speakerTitle": "Referent",
+    "start": "2024-02-29T18:30:00.000Z",
+    "end": "2024-02-29T20:00:00.000Z",
+    "location": "Bürgersaal/Bürgerhaus Grunbach"
+  },
+  {
+    "id": "e8c7f6d9",
+    "type": "Vortrag",
+    "title": "Frühjahrsmüde – es geht auch anders (im Anschluss Frühlingsfeier)",
+    "speaker": "Elke Melchger",
+    "speakerTitle": "Referentin",
+    "start": "2024-03-21T15:00:00.000Z",
+    "end": "2024-03-21T18:00:00.000Z",
+    "location": "Bürgersaal/Bürgerhaus Grunbach"
+  },
+  {
+    "id": "9a2b4c8d",
+    "type": "Vortrag",
+    "title": "Vortrag über die Hospizarbeit",
+    "speaker": "Herr Baumann",
+    "speakerTitle": "Referent",
+    "start": "2024-04-11T18:00:00.000Z",
+    "end": "2024-04-11T20:00:00.000Z",
+    "location": "Foyer der Wilhelm-Enssle-Halle, Geradstetten"
+  },
+  {
+    "id": "3e4f5c6d",
+    "type": "Ausflug",
+    "title": "Busfahrt zur Kinderzeche Dinkelsbühl (Historisches Kinder- und Heimatfest)",
+    "start": "2024-07-21T09:00:00.000Z",
+    "end": "2024-07-21T19:00:00.000Z",
+    "location": "Reinhold-Maier-Platz, Grunbach"
+  },
+  {
+    "id": "7a8b9c0d",
+    "type": "Besuch",
+    "title": "Besuch im Kräutergarten „Garten der Sinne“",
+    "speaker": "Herr Spieß",
+    "speakerTitle": "Referent",
+    "start": "2024-09-12T15:30:00.000Z",
+    "end": "2024-09-12T18:00:00.000Z",
+    "location": "Kräutergarten Sanitas, Weinstadt"
+  },
+  {
+    "id": "1f2a3b4c",
+    "type": "Ausflug",
+    "title": "Ausflug zum Brezelmuseum mit Brezelbacken",
+    "start": "2024-10-24T14:00:00.000Z",
+    "end": "2024-10-24T18:00:00.000Z",
+    "location": "tbd"
   }
 ]
