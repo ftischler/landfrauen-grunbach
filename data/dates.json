@@ -111,7 +111,7 @@
   },
   {
     "id": "8a4af1fb",
-    "type": "Ausflug:",
+    "type": "Ausflug",
     "title": "BUGA Mannheim – Busfahrt mit Führung auf der Bundesgartenschau",
     "start": "2023-09-20T07:00:00.000Z",
     "end": "2023-09-20T17:00:00.000Z",
@@ -120,7 +120,7 @@
   },
   {
     "id": "dbca4ee3",
-    "type": "Ausflug:",
+    "type": "Ausflug",
     "title": "Schwäbisch Hall, Freilichtbühne Große Treppe, Musical „Wie im Himmel“",
     "start": "2023-07-27T13:00:00.000Z",
     "end": "2023-07-27T21:30:00.000Z",
@@ -129,7 +129,7 @@
   },
   {
     "id": "4d61296b",
-    "type": "Vortrag:",
+    "type": "Vortrag",
     "title": "Faszinierende Faszien – ein Vortrag zum Mitmachen",
     "speaker": "Aylin Bergemann",
     "speakerTitle": "Referentin",
@@ -139,9 +139,9 @@
   },
   {
     "id": "b7a9f2d4",
-    "type": "Vortrag:",
+    "type": "Vortrag",
     "title": "Der Bürstenmacher erzählt",
-    "Reinhold Rottenbiller": "Der Bürstenmacher erzählt",
+    "speaker": "Reinhold Rottenbiller",
     "speakerTitle": "Referent",
     "start": "2024-02-29T17:30:00.000Z",
     "end": "2024-02-29T19:00:00.000Z",
@@ -149,7 +149,7 @@
   },
   {
     "id": "e8c7f6d9",
-    "type": "Vortrag:",
+    "type": "Vortrag",
     "title": "Frühjahrsmüde – es geht auch anders (im Anschluss Frühlingsfeier)",
     "speaker": "Elke Melchger",
     "speakerTitle": "Referentin",
@@ -159,8 +159,8 @@
   },
   {
     "id": "9a2b4c8d",
-    "type": "Vortrag:",
-    "title": "Vortrag über die Hospizarbeit",
+    "type": "Vortrag",
+    "title": "über die Hospizarbeit",
     "speaker": "Herr Baumann",
     "speakerTitle": "Referent",
     "start": "2024-04-11T16:00:00.000Z",
@@ -169,7 +169,7 @@
   },
   {
     "id": "3e4f5c6d",
-    "type": "Ausflug:",
+    "type": "Ausflug",
     "title": "Busfahrt zur Kinderzeche Dinkelsbühl (Historisches Kinder- und Heimatfest)",
     "start": "2024-07-21T07:00:00.000Z",
     "end": "2024-07-21T17:00:00.000Z",
@@ -177,7 +177,7 @@
   },
   {
     "id": "7a8b9c0d",
-    "type": "Ausflug:",
+    "type": "Ausflug",
     "title": "Besuch im Kräutergarten „Garten der Sinne“",
     "speaker": "Herr Spieß",
     "speakerTitle": "Referent",
@@ -187,7 +187,7 @@
   },
   {
     "id": "1f2a3b4c",
-    "type": "Ausflug:",
+    "type": "Ausflug",
     "title": "Ausflug zum Brezelmuseum mit Brezelbacken",
     "start": "2024-10-24T12:00:00.000Z",
     "end": "2024-10-24T16:00:00.000Z",
