@@ -74,7 +74,7 @@ export default function Home({ origin }) {
                       </div>
                     </a>
                   </div>
-                  <Link href={url}>
+                  <Link href={url} passHref={true}>
                     <Button variant="outlined">Mehr ...</Button>
                   </Link>
                 </div>
