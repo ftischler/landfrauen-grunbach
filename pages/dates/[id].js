@@ -9,9 +9,9 @@ import LocationIcon from "@mui/icons-material/Place";
 
 import { BiCalendarPlus } from "react-icons/bi";
 import { FormattedDate } from "react-intl";
-import TimeRange from "../components/TimeRange";
+import TimeRange from "../../components/TimeRange";
 import { useConvertDates } from "../../hooks/use-convert-dates";
-import { createTitle } from "../common/create-title";
+import { createTitle } from "../../common/create-title";
 
 export function getStaticPaths() {
   const paths = dates.map(({ id }) => `/dates/${id}`);
