@@ -38,7 +38,8 @@ export default function Dates({ date }) {
         <meta name="theme-color" content="#289C38" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <title>
-          {date.type} {date.title}
+          {date.type ? `${date.type}: ` : ""}
+          {date.title}
         </title>
       </Head>
       <main className={styles.main}>
