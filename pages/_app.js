@@ -2,12 +2,11 @@ import "../styles/globals.css";
 import CssBaseline from "@mui/material/CssBaseline";
 
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { green } from "@mui/material/colors";
 import { IntlProvider } from "react-intl";
 
 const theme = createTheme({
   palette: {
-    primary: green,
+    primary: "#86bc25",
   },
 });
 
