@@ -11,6 +11,7 @@ import { BiCalendarPlus } from "react-icons/bi";
 import { FormattedDate } from "react-intl";
 import TimeRange from "../components/TimeRange";
 import { useConvertDates } from "../../hooks/use-convert-dates";
+import { createTitle } from "../common/create-title";
 
 export function getStaticPaths() {
   const paths = dates.map(({ id }) => `/dates/${id}`);
@@ -26,7 +27,7 @@ export default function Dates({ date }) {
   const { start, end } = useConvertDates(date);
 
   const iCalendar = new ICalendar({
-    title: `${date.type}: ${date.title}`,
+    title: createTitle(date),
     location: `${date.location}, ${date.address}`,
     start,
     end,
@@ -37,20 +38,14 @@ export default function Dates({ date }) {
       <Head>
         <meta name="theme-color" content="#289C38" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <title>
-          {date.type ? `${date.type}: ` : ""}
-          {date.title}
-        </title>
+        <title>{createTitle(date)}</title>
       </Head>
       <main className={styles.main}>
         <div className={styles.dateheader}></div>
         <div className={styles.date}>
           <div>
             <Typography variant="h6" component="h1">
-              <strong>
-                {date.type ? `${date.type}: ` : ""}
-                {date.title}
-              </strong>
+              <strong>{createTitle(date)}</strong>
             </Typography>
             {date.speaker && date.speakerTitle && (
               <div className={styles.speaker}>

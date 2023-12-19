@@ -10,6 +10,7 @@ import absoluteUrl from "next-absolute-url/index";
 import { FormattedDate } from "react-intl";
 import TimeRange from "./components/TimeRange";
 import { convertDates } from "../hooks/use-convert-dates";
+import { createTitle } from "./common/create-title";
 
 Home.getInitialProps = async ({ req }) => {
   const { origin } = absoluteUrl(req);
@@ -46,8 +47,7 @@ export default function Home({ origin }) {
                     <a>
                       <div className={styles.m10}>
                         <Typography variant="body1">
-                          {date.type ? `${date.type}: ` : ""}
-                          {date.title}
+                          {createTitle(date)}
                         </Typography>
                         {date.speaker && (
                           <Typography variant="body2">
