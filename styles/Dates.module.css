@@ -4,7 +4,7 @@
 
 .dateheader {
     height: 25vh;
-    background: url("../public/bgr.webp");
+    background: url("../public/bgr.png");
     background-size: cover;
     background-position: center;
 }
