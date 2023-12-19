@@ -48,7 +48,8 @@ export default function Dates({ date }) {
           <div>
             <Typography variant="h6" component="h1">
               <strong>
-                {date.type} {date.title}
+                {date.type ? `${date.type}: ` : ""}
+                {date.title}
               </strong>
             </Typography>
             {date.speaker && date.speakerTitle && (

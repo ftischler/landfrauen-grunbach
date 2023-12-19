@@ -6,7 +6,7 @@ import { IntlProvider } from "react-intl";
 
 const theme = createTheme({
   palette: {
-    primary: "#86bc25",
+    primary: { main: "#86bc25" },
   },
 });
 

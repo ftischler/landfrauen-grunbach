@@ -46,7 +46,8 @@ export default function Home({ origin }) {
                     <a>
                       <div className={styles.m10}>
                         <Typography variant="body1">
-                          {date.type} {date.title}
+                          {date.type ? `${date.type}: ` : ""}
+                          {date.title}
                         </Typography>
                         {date.speaker && (
                           <Typography variant="body2">
